@@ -1,0 +1,274 @@
+{
+    "Name": "MyIndicator",    
+    "Transformation": [
+        {
+            "type": "sparql",
+            "id": 1,
+            "Predecesseur": "",
+            "Successeur": 2,
+            "method": "sparql",
+            "graph_model_Source": [
+                 {
+            "@id": "#resource-read" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Sur-Sujet" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Button" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#resource-claroline_forum-create_message" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#resource-claroline_forum-delete_message" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Menu" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Lien-session-0" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Lien-Categorie" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Page-Quiz" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#resource-ujm_exercise-exercise_evaluated" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Lien-Tutoriel" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Recherche-Google" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#change"] 
+        },
+        {
+            "@id": "#change" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Lien-session-1" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Aime-Video" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#dislike-video" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Annuler-Abonnement" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Abonner-Video" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#click" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Button-Assistant" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#mouseover" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#workspace-enter" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Ouverture_Page" ,
+            "@type": "ObselType" 
+        },
+        {
+            "@id": "#Click-Onglet" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Lien" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-Lien-Presentation" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Survol-Session" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#mouseover"] 
+        },
+        {
+            "@id": "#Click-Session" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#click-lien-presentation" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#Click-lien-google" ,
+            "@type": "ObselType" ,
+            "hasSuperObselType": ["#click"] 
+        },
+        {
+            "@id": "#resource-read/hasTool_WorkspaceName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasTool_WorkspaceName"
+        },
+        {
+            "@id": "#resource-read/hasTool_ResourcePath" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasTool_ResourcePath"
+        },
+        {
+            "@id": "#resource-read/hasUser_UserID" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasUser_UserID"
+        },
+        {
+            "@id": "#resource-read/hasTool_ResourceName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasTool_ResourceName"
+        },
+        {
+            "@id": "#resource-read/hasDate" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasDate"
+        },
+        {
+            "@id": "#resource-read/hasUser_LastName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasUser_LastName"
+        },
+        {
+            "@id": "#resource-read/hasUser_FirstName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasUser_FirstName"
+        },
+        {
+            "@id": "#resource-read/hasUser_UserName" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasUser_UserName"
+        },
+        {
+            "@id": "#resource-read/hasTool_ResourceType" ,
+            "@type": "AttributeType" ,
+            "hasAttributeObselType": "#resource-read" ,
+            "hasAttributeDatatype": "xsd:string" ,            "label": "resource-read/hasTool_ResourceType"
+        }
+            ],
+            "graph_model_Resultat": [
+                {
+                    "@id": "#resource-read",
+                    "@type": "ObselType"
+                },
+                {
+                    "@id": "#Click-Lien",
+                    "@type": "ObselType",
+                    "hasSuperObselType": [
+                        "#click"
+                    ]
+                }
+            ],
+            "Parameter": {
+                "after": "null",
+                "before": "null",
+                "ObselType": [
+                    {
+                        "obselTypeId": "#workspace-enter",
+                        "attribute": [
+                            {
+                                "nameAttributeId": "#workspace-enter/hasUser_FirstName",
+                                "constraint": "null"
+                            },
+                            {
+                                "nameAttributeId": "#workspace-enter/hasTool_WorkspaceName",
+                                "constraint": "null"
+                            }
+                        ]
+                    },
+                    {
+                        "obselTypeId": "#Click-Lien",
+                        "attribute": []
+                    }
+                ]
+            }
+        },
+        {
+            "type": "sparql",
+            "id": 1,
+            "Predecesseur": "",
+            "Successeur": 2,
+            "method": "sparql",
+            "Parameter": {
+                "after": "null",
+                "before": "null",
+                "ObselType": []
+            }
+        }
+    ],
+    "formula": "X=A/B",
+    "output": {
+        "name": "X",
+        "label": "substraction"
+    },
+    "input": [
+        {
+            "name": "A",
+            "operation": "prefix : <http://liris.cnrs.fr/silex/2009/ktbs#> \n prefix ns1: <http://liris.cnrs.fr/silex/2011/simple-trace-model/> \n prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n prefix xml: <http://www.w3.org/XML/1998/namespace> \n prefix xsd: <http://www.w3.org/2001/XMLSchema#> \n\n prefix base: <http://liris.cnrs.fr/silex/2011/simple-trace-model/> \n prefix model: http://ktbs.univ-lyon1.fr/fderbel35/modelessai1324\n\nSELECT * WHERE {{SELECT (COUNT ( distinct ?sobs0 ) AS ?num_sobs0) \nWHERE \n { \n ?sobs0 ?pobs0 ?oobs0 .\n ?sobs0 :hasEnd ?dateEndobs0 .\n ?sobs0 :hasBegin ?dateBeginobs0 .\n ?sobs0 rdf:type base:Click-Lien ., \n\n }}}",
+            "text": "I am trying to count the number of Click-Link type obsels."
+        },
+        {
+            "name": "B",
+            "operation": "prefix : <http://liris.cnrs.fr/silex/2009/ktbs#> \n prefix ns1: <http://liris.cnrs.fr/silex/2011/simple-trace-model/> \n prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> \n prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> \n prefix xml: <http://www.w3.org/XML/1998/namespace> \n prefix xsd: <http://www.w3.org/2001/XMLSchema#> \n\n prefix base: <http://liris.cnrs.fr/silex/2011/simple-trace-model/> \n prefix model: http://ktbs.univ-lyon1.fr/fderbel35/modelessai1324\n\nSELECT * WHERE {{SELECT (COUNT ( distinct ?sobs0 ) AS ?num_sobs0) \nWHERE \n { \n ?sobs0 ?pobs0 ?oobs0 .\n ?sobs0 :hasEnd ?dateEndobs0 .\n ?sobs0 :hasBegin ?dateBeginobs0 .\n ?sobs0 rdf:type base:workspace-enter ., \n\n }}}",
+            "text": "I'm trying to count the number of workspace-enter type obsels."
+        }
+    ]
+}
